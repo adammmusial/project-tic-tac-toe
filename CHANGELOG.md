@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.3.0...v1.4.0) (2024-04-02)
+
+
+### Features
+
+* add hovering effect for x mark and change selector names ([50160a5](https://github.com/adammmusial/tic-tac-toe/commit/50160a59a0d9b455cff72e67bb7538d4a713205d))
+* create x mark using ::before and ::after pseudoclasses ([b2e1824](https://github.com/adammmusial/tic-tac-toe/commit/b2e18243f875fc7c1c8f801fe0ef9413799ebec0))
+
+
+### Bug Fixes
+
+* change class names to board and cell ([67d231a](https://github.com/adammmusial/tic-tac-toe/commit/67d231ac7f71f3722610b69905350313489a2bae))
+
 ## [1.3.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.2.0...v1.3.0) (2024-04-02)
 
 
