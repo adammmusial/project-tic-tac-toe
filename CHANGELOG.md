@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.2.0...v1.3.0) (2024-04-02)
+
+
+### Features
+
+* align items in center and add calculation of the mark size ([51886d5](https://github.com/adammmusial/tic-tac-toe/commit/51886d5ce7f795312bc87463253fa9fd0ea1ca50))
+* remove outer borders in the grid ([b12e12a](https://github.com/adammmusial/tic-tac-toe/commit/b12e12a5f77d3a56de1d60af2cadb4585829760b))
+
 ## [1.2.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.1.0...v1.2.0) (2024-04-02)
 
 
