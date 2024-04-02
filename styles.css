@@ -85,7 +85,6 @@ body {
     width: calc(var(--cell-size) * .10);
     height: var(--cell-size);
     position: absolute;
-    background-color: black;
 }
 
 .cell.x::after,
