@@ -3,7 +3,8 @@
 }
 
 :root{
-    --cell-size: 100px
+    --cell-size: 100px;
+    --mark-size: cal(var(--cell-size)*0.9);
 }
 
 body {
@@ -15,6 +16,8 @@ body {
     grid-template-columns: repeat(3,auto);
     justify-content: center;
     align-content: center;
+    justify-items: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
 
