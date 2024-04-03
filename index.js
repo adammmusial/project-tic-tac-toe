@@ -1,9 +1,30 @@
+const X_CLASS = 'x'
+const CIRCLE_GLASS = 'circle'
 const cellElements = document.querySelectorAll('[data-cell]')
+let circleTurn
 
 cellElements.forEach(cell => {
     cell.addEventListener('click',handleClick, {once: true})
 })
 
+
+//placeMark
+//Check for Win
+//Check for Draw
+//Switch Turn
+
 function handleClick(e) {
-    console.log('clicked')
+    const cell = e.target
+    currentClass = circleTurn ? CIRCLE_GLASS : X_CLASS
+    placeMark (cell, currentClass)
+    swapTurns()
+}
+
+
+function placeMark (cell,currentClass){
+    cell.classList.add(currentClass)
+}
+
+function swapTurns(){
+    circleTurn = !circleTurn
 }
