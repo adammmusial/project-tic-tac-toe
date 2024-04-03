@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.4.0...v1.5.0) (2024-04-03)
+
+
+### Features
+
+* implement styling to winning page ([5fbd16f](https://github.com/adammmusial/tic-tac-toe/commit/5fbd16fe5c45865dc405550f5fe3692cde8ee576))
+
+
+### Bug Fixes
+
+* fix bug which prevent hovering with grey element ([09ef6b1](https://github.com/adammmusial/tic-tac-toe/commit/09ef6b1c5e920730b37e0001431fea1e41a25a20))
+
 ## [1.4.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.3.0...v1.4.0) (2024-04-02)
 
 
