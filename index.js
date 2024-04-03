@@ -33,10 +33,10 @@ function swapTurns(){
 
 function setBoardHoverClass(){
     boardElements.classList.remove(X_CLASS);
-    boardElements.classList.remove(C);
+    boardElements.classList.remove(CIRCLE_CLASS);
     if (circleTurn) {
         boardElements.classList.add(CIRCLE_CLASS)
     } else {
-        boardElements.classList.add(CIRCLE_CLASS)
+        boardElements.classList.add(X_CLASS)
     }
 }
