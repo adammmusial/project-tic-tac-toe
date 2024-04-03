@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.5.0...v1.6.0) (2024-04-03)
+
+
+### Features
+
+* add js script file and clean the file ([a938ca2](https://github.com/adammmusial/tic-tac-toe/commit/a938ca2b9717b150a351fc43c94e458a8023a0f1))
+* apply swap function ([2c57286](https://github.com/adammmusial/tic-tac-toe/commit/2c572865c8947cbdc8b4e0ed3c21b14c28302c08))
+
 ## [1.5.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.4.0...v1.5.0) (2024-04-03)
 
 
