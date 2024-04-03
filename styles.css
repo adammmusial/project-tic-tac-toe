@@ -68,12 +68,16 @@ body {
 
 
 .cell.x::before,
-.cell.x::after {
+.cell.x::after,
+.cell.circle::before,
+.cell.circle::after {
     background-color: black;
 } 
 
 .board.x .cell:not(.circle):not(.x):hover::before,
-.board.x .cell:not(.circle):not(.x):hover::after {
+.board.x .cell:not(.circle):not(.x):hover::after,
+.board.circle .cell:not(.circle):not(.x):hover::before,
+.board.circle .cell:not(.circle):not(.x):hover::after {
     background-color: lightgray;
 }
 
@@ -99,16 +103,18 @@ body {
 
 /* ***** CIRCLE MARK ****** */
 
-.cell.circle::before{
+.cell.circle::before,
+.board.circle .cell:not(.circle):not(.x):hover::before
+{
     content: '';
     width: calc(var(--cell-size)*0.85);
     height: calc(var(--cell-size)*0.85);
     border-radius: 50%;
     position: absolute;
-    background-color: black;
 }
 
-.cell.circle::after{
+.cell.circle::after,
+.board.circle .cell:not(.circle):not(.x):hover::after{
     content: '';
     width: calc(var(--cell-size)*0.65);
     height: calc(var(--cell-size)*0.65);
