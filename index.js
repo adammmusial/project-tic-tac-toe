@@ -4,7 +4,7 @@ const cellElements = document.querySelectorAll('[data-cell]')
 const boardElements = document.getElementById('board')
 const winningMessageTextElement = document.querySelector('[data-winning-message-text]')
 const winningMessageElement = document.getElementById('winningMessage')
-const restartButton = document.getElementById('restartbutton')
+const restartButton = document.getElementById('restartButton')
 const WINNING_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
