@@ -1,6 +1,6 @@
 {
   "name": "tic-tac-toe",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "main": "index.js",
   "repository": "https://github.com/adammmusial/tic-tac-toe.git",
   "author": "adammmusial <musialadam83@gmail.com>",

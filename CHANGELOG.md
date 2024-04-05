@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.7.0...v1.8.0) (2024-04-05)
+
+
+### Features
+
+* make code modular by adding class ([9ed5e3f](https://github.com/adammmusial/tic-tac-toe/commit/9ed5e3f216f33aa7e6668e647285d01ae941f543))
+
 ## [1.7.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.6.0...v1.7.0) (2024-04-05)
 
 
