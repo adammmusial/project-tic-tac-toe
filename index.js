@@ -37,15 +37,26 @@ function handleClick(e) {
     placeMark (cell, currentClass)
     if (checkWin(currentClass)) {
         endGame(false)
+    } else if (isDraw()) {
+        endGame(true)
+    } else {
+        swapTurns()
+        setBoardHoverClass()
     }
-    swapTurns()
-    setBoardHoverClass()
 
 }
 
-function endGame(draw){
-    if (draw) {
+function isDraw() {
+    return [...cellElements].every(cell => {
+        return cell.classList.contains(X_CLASS) || 
+        cell.classList.contains(CIRCLE_CLASS)
+    })
+}
 
+function endGame(draw){
+
+    if (draw) {
+        winningMessageTextElement.innerText = `Draw!`
     } else {
         winningMessageTextElement.innerText = `${circleTurn ? "0's" : "X's"} Wins!`
     }
@@ -76,7 +87,6 @@ function setBoardHoverClass(){
 function checkWin(currentClass){
     return WINNING_COMBINATIONS.some(combination => {
         return combination.every(index => {
-            console.log(cellElements[index].classList.contains(currentClass))
             return win = cellElements[index].classList.contains(currentClass);
         });
     });
