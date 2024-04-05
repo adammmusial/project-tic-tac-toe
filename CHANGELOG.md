@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.6.0...v1.7.0) (2024-04-05)
+
+
+### Features
+
+* Add board hover functions to change ([4737e38](https://github.com/adammmusial/tic-tac-toe/commit/4737e38c071ae63fde8d858c05fc1d508aca6f79))
+* add checkWin function ([2a508b3](https://github.com/adammmusial/tic-tac-toe/commit/2a508b360670b5e86efccfe40de8ce6721934ecc))
+* add endGame() function to define ending of the game ([4f92aa2](https://github.com/adammmusial/tic-tac-toe/commit/4f92aa2cdb1e46e503bcb44a5c710dfee52b8212))
+* add hovering effect for circles ([a44bd88](https://github.com/adammmusial/tic-tac-toe/commit/a44bd8856767052bdf06dee3a38f23a1f5a7e705))
+* add isDraw() function to determin draw ([3c89a9c](https://github.com/adammmusial/tic-tac-toe/commit/3c89a9c323409b1eb1f033afd3f87b558d369c45))
+* add startGame() function to start game when the page opens ([d662d91](https://github.com/adammmusial/tic-tac-toe/commit/d662d913ffe61392f1ca0364acedf57fbb14f52f))
+* add winning conditions ([77433a3](https://github.com/adammmusial/tic-tac-toe/commit/77433a3ad2201fde23d56628cd12fc3494f4ac12))
+* enable resetting the game ([76f8991](https://github.com/adammmusial/tic-tac-toe/commit/76f899138e1518af446a05ff5195489d260f9161))
+
+
+### Bug Fixes
+
+* fix bug making unable to switch hovers ([b0cb9b7](https://github.com/adammmusial/tic-tac-toe/commit/b0cb9b7ad3216c93efdd4fc630390c93b923d493))
+* fix typo ([2ab72cc](https://github.com/adammmusial/tic-tac-toe/commit/2ab72cc1fb7013b6b9546155ba64c0a33808bcdf))
+* fix typo preventing resetting the game ([5efb04a](https://github.com/adammmusial/tic-tac-toe/commit/5efb04a07b1cb67321cfe0263c91f32e9628fe81))
+
 ## [1.6.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.5.0...v1.6.0) (2024-04-03)
 
 
