@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *::after, *::before{
     box-sizing: border-box;
 }
@@ -9,18 +12,25 @@
 
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
-.board{
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
-
+    height: 60vh;
 }
 
 .cell {
@@ -37,25 +47,21 @@ body {
 
 .cell:first-child,
 .cell:nth-child(2),
-.cell:nth-child(3)
-
-{
+.cell:nth-child(3) {
     border-top: none;
 }
+
 .cell:last-child,
 .cell:nth-child(7),
-.cell:nth-child(8)
-{
+.cell:nth-child(8) {
     border-bottom: none;
 }
 
-.cell:nth-child(3n + 1)
-{
+.cell:nth-child(3n + 1) {
     border-left: none;
 }
 
-.cell:nth-child(3n + 3)
-{
+.cell:nth-child(3n + 3) {
     border-right: none;
 }
 
@@ -65,7 +71,6 @@ body {
 .cell.circle {
     cursor: not-allowed;
 }
-
 
 .cell.x::before,
 .cell.x::after,
@@ -84,7 +89,7 @@ body {
 .cell.x::before,
 .cell.x::after,
 .board.x .cell:not(.circle):not(.x):hover::before,
-.board.x .cell:not(.circle):not(.x):hover::after{
+.board.x .cell:not(.circle):not(.x):hover::after {
     content: '';
     width: calc(var(--cell-size) * .10);
     height: var(--cell-size);
@@ -92,32 +97,31 @@ body {
 }
 
 .cell.x::after,
-.board.x .cell:not(.circle):not(.x):hover::after{
+.board.x .cell:not(.circle):not(.x):hover::after {
     rotate: 45deg;
 }
 
 .cell.x::before,
-.board.x .cell:not(.circle):not(.x):hover::before{
+.board.x .cell:not(.circle):not(.x):hover::before {
     rotate: -45deg;
 }
 
 /* ***** CIRCLE MARK ****** */
 
 .cell.circle::before,
-.board.circle .cell:not(.circle):not(.x):hover::before
-{
+.board.circle .cell:not(.circle):not(.x):hover::before {
     content: '';
-    width: calc(var(--cell-size)*0.85);
-    height: calc(var(--cell-size)*0.85);
+    width: calc(var(--cell-size) * 0.85);
+    height: calc(var(--cell-size) * 0.85);
     border-radius: 50%;
     position: absolute;
 }
 
 .cell.circle::after,
-.board.circle .cell:not(.circle):not(.x):hover::after{
+.board.circle .cell:not(.circle):not(.x):hover::after {
     content: '';
-    width: calc(var(--cell-size)*0.65);
-    height: calc(var(--cell-size)*0.65);
+    width: calc(var(--cell-size) * 0.65);
+    height: calc(var(--cell-size) * 0.65);
     border-radius: 50%;
     position: absolute;
     background-color: white;
@@ -154,4 +158,52 @@ body {
 
 .winning-message.show {
     display: flex;
+}
+
+.banner {
+    width: 100%;
+    padding: 2px 0;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    animation: changeColor 10s linear infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: hsl(0, 75%, 75%);
+    }
+    16.7% {
+        background-color: hsl(60, 75%, 75%);
+    }
+    33.4% {
+        background-color: hsl(120, 75%, 75%);
+    }
+    50% {
+        background-color: hsl(180, 75%, 75%);
+    }
+    66.7% {
+        background-color: hsl(240, 75%, 75%);
+    }
+    83.4% {
+        background-color: hsl(300, 75%, 75%);
+    }
+    100% {
+        background-color: hsl(360, 75%, 75%);
+    }
+}
+
+button {
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
