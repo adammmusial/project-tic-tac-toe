@@ -7,6 +7,7 @@ class TicTacToe {
         this.winningMessageTextElement = document.querySelector('[data-winning-message-text]')
         this.winningMessageElement = document.getElementById('winningMessage')
         this.restartButton = document.getElementById('restartButton')
+        this.resetButton = document.getElementById('resetButton')
         this.WINNING_COMBINATIONS = [
             [0,1,2],
             [3,4,5],
@@ -27,6 +28,7 @@ class TicTacToe {
             this.startGame = this.startGame.bind(this)
             this.startGame()
             this.restartButton.addEventListener('click', this.startGame)
+            this.resetButton.addEventListener('click', this.startGame)
         }
         
         startGame(){
@@ -102,6 +104,10 @@ class TicTacToe {
                     return this.cellElements[index].classList.contains(currentClass);
                 });
             });
+        }
+        resetGame() {
+            this.startGame();
+            this.winningMessageElement.classList.remove('show');
         }
     }
 
