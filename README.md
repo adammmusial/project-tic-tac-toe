@@ -1,5 +1,5 @@
 # Tic Tac Toe
-<a href="[link](https://tic-tac-toe-amm.netlify.app/)">Live Demo </a>
+<a href="https://tic-tac-toe-amm.netlify.app">Live Demo </a>
 
 ## About the Project
 This is a Tic Tac Toe game implemented using HTML, CSS, and JavaScript. The game allows two players to take turns marking cells on a 3x3 grid with 'X' and 'O'. The first player to align three marks in a row, column, or diagonal wins. The game includes features such as reset and restart buttons, hover effects for player turns, and a winning message display.
