@@ -2,7 +2,7 @@
 <a href="https://tic-tac-toe-amm.netlify.app">Live Demo </a>
 
 ## About the Project
-This is a Tic Tac Toe game implemented using HTML, CSS, and JavaScript. The game allows two players to take turns marking cells on a 3x3 grid with 'X' and 'O'. The first player to align three marks in a row, column, or diagonal wins. The game includes features such as reset and restart buttons, hover effects for player turns, and a winning message display.
+In this project, I built a fun Tic Tac Toe game using HTML, CSS, and JavaScript. This game lets two players compete, taking turns to place their 'X' or 'O' on a 3x3 grid. The first player to align three marks in a row, column, or diagonal wins the game! I added features like reset and restart buttons, hover effects to indicate the current player, and a winning message that pops up when the game ends.
 
 <img width="300" alt="Screenshot 2024-05-15 at 16 01 04" src="https://github.com/adammmusial/tic-tac-toe/assets/95377932/ea4c34bd-8912-4dfb-a6aa-00733dbd788e">
 
