@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.8.0...v1.9.0) (2024-05-15)
+
+
+### Features
+
+* add banner and its styling ([79b9830](https://github.com/adammmusial/tic-tac-toe/commit/79b98302efd35f952814bae2b55a38acc69371de))
+* add button reset game functionality ([27efa65](https://github.com/adammmusial/tic-tac-toe/commit/27efa65820af155691be1e82ba2152a00b907ceb))
+
+
+### Bug Fixes
+
+* change document title ([0c64855](https://github.com/adammmusial/tic-tac-toe/commit/0c64855f81a1a30097e89d43532f3ed36cb016f0))
+
 ## [1.8.0](https://github.com/adammmusial/tic-tac-toe/compare/v1.7.0...v1.8.0) (2024-04-05)
 
 
